@@ -88,6 +88,13 @@ include './JS/MiLibreria.php';
                 </nav>
             </header>
             <div id="contenido">
+                <div class="jumbotron">
+                    <h1 class="display-3">Descarga el ApiGen</h1>
+                    <p class="lead">has clic en el boton descarga</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="apigen.rar" role="button" download>Descarga</a>
+                    </p>
+                </div>
 
             </div>
             <footer>
