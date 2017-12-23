@@ -13,7 +13,10 @@
  */
 class ArticuloDAO {
     //put your code here
-    
+    /**
+     * Hola mundo
+     * @param type $arreglo
+     */
     function Almacenar($arreglo){
         $ArticuloVO = new ArticuloVO();
         $ArticuloVO->setNombre($arreglo["nombre"]);
