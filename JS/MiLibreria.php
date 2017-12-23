@@ -6,8 +6,6 @@
 <?php
 $lista = false;
 ?>
-
-
 $(document).ready(function () {
 $(".inici").click(function () {
 inicio($(this).attr("cod"));
@@ -20,7 +18,6 @@ fAjax(pag[pValor], "a=1", function (datos) {
 $("#contenido").html(datos);
 });
 }
-
 <?php
 if ($lista == true) {
     ?>
@@ -30,15 +27,4 @@ if ($lista == true) {
     });
     });
 <?php } ?>
-
-
 });
-
-/**
-* Metodo que permite traer el contenido de la pagian Lunes
-* y ser modifcado el el archivo index
-* @return {undefined}
-*/
-
-
-

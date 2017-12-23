@@ -24,7 +24,11 @@ and open the template in the editor.
         <script src="JS/additional-methods.js" type="text/javascript"></script>
         <script src="JS/localization/messages_es.js" type="text/javascript"></script>
         <script src="JS/public.js" type="text/javascript"></script>
-        <script src="JS/MiLibreria.php" type="text/javascript"></script>
+        <script>
+<?php
+include './JS/MiLibreria.php';
+?>
+        </script>
         <script src="JS/planetas.js" type="text/javascript"></script>
     </head>
     <body>

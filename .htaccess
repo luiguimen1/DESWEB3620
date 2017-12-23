@@ -1,4 +1,6 @@
-﻿RewriteEngine on
+php_value display_errors 1
+Options +FollowSymLinks
+RewriteEngine On
 RewriteRule ^mision$ View/Mision/Mision.php
 
 #Factura
