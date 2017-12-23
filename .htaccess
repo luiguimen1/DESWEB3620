@@ -1,0 +1,30 @@
+﻿RewriteEngine on
+RewriteRule ^mision$ View/Mision/Mision.php
+
+#Factura
+RewriteRule ^addFactura$ View/factura/addFactura.php
+
+
+#
+RewriteRule ^ayuda$ View/Ayuda/Ayuda.php
+RewriteRule ^galeria$ View/Galeria/galeria.php
+RewriteRule ^planeta$ View/Planeta/index.php
+RewriteRule ^ForCrArticulo$ View/articulos/forCrArti.php
+
+#view Cleintes
+RewriteRule ^ListaCliente$ View/Cliente/ListaCliente.php
+
+#controller cliente
+RewriteRule ^addCliente$ Controller/cliente/addcliente.php
+RewriteRule ^DeleteCliente$ Controller/cliente/DeleteCliente.php
+RewriteRule ^ClienteCC$ Controller/cliente/ClienteCC.php
+
+#Controller Artilos
+RewriteRule ^addArticulo$ Controller/Articulo/addArticulo.php
+RewriteRule ^buscarArticulo$ Controller/Articulo/buscarArticulo.php
+
+#Controller Orden
+RewriteRule ^addOrden$ Controller/Orden/addOrden.php
+
+#Controller Detalle
+RewriteRule ^RegDetalles$ Controller/Detalle/RegDetalles.php

@@ -1,0 +1,18 @@
+#menu li:hover{
+    color: #185578;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menu li{
+    color: #000;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+}
+
+.ui-autocomplete-loading {
+    background: white url("images/20-0.gif") right center no-repeat;
+  }
