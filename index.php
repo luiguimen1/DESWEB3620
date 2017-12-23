@@ -7,7 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>DesWEB3620</title>
+        <link rel="shortcut icon" href="worldwideweb.ico" />
         <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/jquery-ui.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/jquery-ui.structure.css" rel="stylesheet" type="text/css"/>
